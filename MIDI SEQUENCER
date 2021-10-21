@@ -1,0 +1,58 @@
+/*
+Built for Logic Pro X Scripter. This code is written for Javascript.
+*/
+
+// example: simple pass through and MIDI monitor
+
+// play current note
+
+function HandleMIDI(Incomingevent)
+{
+	event.trace(noteNumber, noteName);
+	event.send();
+
+/* FIBONACCI SEQUENCE W RECURSION <script>
+var fseries = function (var1)
+{
+if (var1===1)
+{
+return [0, 1];
+}
+else
+{
+var sum = fseries(var1 - 1);
+sum.push(sum[sum.length - 1] + sum[sum.length - 2]);
+return sum;
+}
+};
+document.write(fseries(1000));
+</script>
+
+GENERATOR BASED UPON 12NOTE SCALE 
+var xyz = new Event
+xyz.array = fseries
+xyz.newNumber = fseries(x) >>closest multiple to 12. 12 = 1 = firstNote
+
+//change f series to array. >> xyz.array = feries.toString necessary?
+
+// let nextNote = xyz.array[j + 1] i.e.
+
+>>let nextval = nextNote(j + 1) / 12;
+>>subtractor to get value between 0-1 (0 inclusive)
+while (next val > 1)
+	i - 1;
+	
+return nextval;
+let finalSeqeunce = nextval * 12
+return finalSequence(int())
+>> multiply nextval by 12
+>>round to int 
+
+// 
+*/
+
+}
+
+function handleMIDI(nextNOTE) 
+{
+	nextNote.trace
